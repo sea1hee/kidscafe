@@ -3,9 +3,9 @@ package com.example.kidscafe
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class SettingActivity : AppCompatActivity() {
+class MyPageActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_setting)
+        setContentView(R.layout.activity_my_page)
     }
 }
